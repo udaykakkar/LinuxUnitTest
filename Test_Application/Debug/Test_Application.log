@@ -1,0 +1,77 @@
+﻿  stdafx.cpp
+  Test_Application.cpp
+  I2C.cpp
+c:\users\lenovo\documents\visual studio 2015\projects\linuxunittest\linuxunittest\i2c.cpp(176): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Utest.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\utest.cpp(733): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestTestingFixture.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testtestingfixture.cpp(49): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestResult.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testresult.cpp(138): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestRegistry.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testregistry.cpp(287): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestPlugin.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testplugin.cpp(170): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestOutput.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testoutput.cpp(382): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestMemoryAllocator.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testmemoryallocator.cpp(322): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestHarness_c.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testharness_c.cpp(185): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestFilter.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testfilter.cpp(108): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestFailure.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\testfailure.cpp(392): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TeamCityTestOutput.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\teamcitytestoutput.cpp(101): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  SimpleString.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\simplestring.cpp(780): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  SimpleMutex.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\simplemutex.cpp(64): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MemoryLeakWarningPlugin.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\memoryleakwarningplugin.cpp(134): warning C4005: 'UT_THROW_BAD_ALLOC_WHEN_NULL': macro redefinition
+  c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\memoryleakwarningplugin.cpp(132): note: see previous definition of 'UT_THROW_BAD_ALLOC_WHEN_NULL'
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\memoryleakwarningplugin.cpp(581): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MemoryLeakDetector.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\memoryleakdetector.cpp(663): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  JUnitTestOutput.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\junittestoutput.cpp(284): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  CommandLineTestRunner.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\commandlinetestrunner.cpp(177): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  CommandLineArguments.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputest\commandlinearguments.cpp(279): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...
+  Compiling...
+  OrderedTest.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\orderedtest.cpp(138): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockSupport_c.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mocksupport_c.cpp(906): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockSupportPlugin.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mocksupportplugin.cpp(88): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockSupport.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mocksupport.cpp(613): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockNamedValue.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mocknamedvalue.cpp(493): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockFailure.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mockfailure.cpp(241): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockExpectedCallsList.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mockexpectedcallslist.cpp(378): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockExpectedCall.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mockexpectedcall.cpp(742): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MockActualCall.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\mockactualcall.cpp(824): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MemoryReportFormatter.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\memoryreportformatter.cpp(73): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MemoryReporterPlugin.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\memoryreporterplugin.cpp(133): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  MemoryReportAllocator.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\memoryreportallocator.cpp(89): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  IEEE754ExceptionsPlugin.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\ieee754exceptionsplugin.cpp(104): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  CodeMemoryReportFormatter.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\src\cpputestext\codememoryreportformatter.cpp(173): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  SysprogsTestHooks.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\platforms\sysprogstesthooks.cpp(262): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  UtestPlatform.cpp
+c:\users\lenovo\appdata\local\visualgdb\testframeworks\com.sysprogs.unittest.cpputest\platforms\linux\utestplatform.cpp(289): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...

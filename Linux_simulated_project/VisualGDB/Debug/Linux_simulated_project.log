@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\external.targets(11,3): warning MSB4220: Waiting for the currently executing task "LaunchVisualGDB" to cancel.
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\external.targets(11,3): warning MSB4220: Waiting for the currently executing task "LaunchVisualGDB" to cancel.
+  System.Exception
+  System.Exception: Cannot establish an SSH connection
+     at Sysprogs.build.tasks.shared.LaunchVisualGDB.Execute()
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\external.targets(11,3): error : Cannot establish an SSH connection

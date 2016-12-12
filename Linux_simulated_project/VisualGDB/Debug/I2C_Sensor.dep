@@ -1,0 +1,5 @@
+VisualGDB/Debug/I2C_Sensor.o: I2C_Sensor.cpp I2C.h I2C_Sensor.h
+
+I2C.h:
+
+I2C_Sensor.h:

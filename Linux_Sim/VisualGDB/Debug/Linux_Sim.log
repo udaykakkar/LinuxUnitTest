@@ -1,0 +1,41 @@
+﻿  VisualGDB: Run "rm -rf "/tmp/VisualGDB/c/Users/Lenovo/Documents/Visual Studio 2015/Projects/LinuxUnitTest/Linux_Sim/VisualGDB/Debug"" in directory "" on root@192.168.56.101 (SSH)
+  VisualGDB: Sending 2 updated source files to build machine...
+  VisualGDB: Sending 84 updated source files to build machine...
+  VisualGDB: Run "make -f "VisualGDB/Debug/Linux_Sim.msbuild-mak"" in directory "/tmp/VisualGDB/c/Users/Lenovo/Documents/Visual Studio 2015/Projects/LinuxUnitTest/Linux_Sim" on root@192.168.56.101 (SSH)
+  UtestPlatform.cpp
+  SysprogsTestHooks.cpp
+  CodeMemoryReportFormatter.cpp
+  IEEE754ExceptionsPlugin.cpp
+  MemoryReportAllocator.cpp
+  MemoryReporterPlugin.cpp
+  MemoryReportFormatter.cpp
+  MockActualCall.cpp
+  MockExpectedCall.cpp
+  MockExpectedCallsList.cpp
+  MockFailure.cpp
+  MockNamedValue.cpp
+  MockSupport.cpp
+  MockSupportPlugin.cpp
+  MockSupport_c.cpp
+  OrderedTest.cpp
+  CommandLineArguments.cpp
+  CommandLineTestRunner.cpp
+  JUnitTestOutput.cpp
+  MemoryLeakDetector.cpp
+  MemoryLeakWarningPlugin.cpp
+  SimpleMutex.cpp
+  SimpleString.cpp
+  TeamCityTestOutput.cpp
+  TestFailure.cpp
+  TestFilter.cpp
+  TestHarness_c.cpp
+  TestMemoryAllocator.cpp
+  TestOutput.cpp
+  TestPlugin.cpp
+  TestRegistry.cpp
+  TestResult.cpp
+  TestTestingFixture.cpp
+  Utest.cpp
+  Linux_Sim.cpp
+  Linux_SimTests.cpp
+  Linking ../VisualGDB/Debug/Linux_Sim...

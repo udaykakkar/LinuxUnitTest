@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{67ED0B25-2D90-4575-8A75-89EA6C236180}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Test_Application</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Lenovo\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include;C:\Users\Lenovo\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Lenovo\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include;C:\Users\Lenovo\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\CodeMemoryReportFormatter.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\GMock.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\GTest.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\GTestConvertor.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\IEEE754ExceptionsPlugin.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MemoryReportAllocator.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MemoryReporterPlugin.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MemoryReportFormatter.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockActualCall.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockCheckedActualCall.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockCheckedExpectedCall.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockExpectedCall.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockExpectedCallsList.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockFailure.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockNamedValue.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockSupport.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockSupportPlugin.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockSupport_c.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\OrderedTest.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CommandLineArguments.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CommandLineTestRunner.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CppUTestConfig.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CppUTestGeneratedConfig.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\JUnitTestOutput.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakDetector.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakDetectorMallocMacros.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakDetectorNewMacros.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakWarningPlugin.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\PlatformSpecificFunctions.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\PlatformSpecificFunctions_c.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\SimpleMutex.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\SimpleString.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\StandardCLibrary.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TeamCityTestOutput.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestFailure.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestFilter.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestHarness.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestHarness_c.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestMemoryAllocator.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestOutput.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestPlugin.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestRegistry.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestResult.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestTestingFixture.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\Utest.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\UtestMacros.h" />
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\Platforms\SysprogsTestHooks.h" />
+    <ClInclude Include="..\LinuxUnitTest\I2C.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\Platforms\Linux\UtestPlatform.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\Platforms\SysprogsTestHooks.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\CodeMemoryReportFormatter.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\IEEE754ExceptionsPlugin.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MemoryReportAllocator.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MemoryReporterPlugin.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MemoryReportFormatter.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockActualCall.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockExpectedCall.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockExpectedCallsList.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockFailure.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockNamedValue.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockSupport.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockSupportPlugin.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockSupport_c.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\OrderedTest.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\CommandLineArguments.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\CommandLineTestRunner.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\JUnitTestOutput.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\MemoryLeakDetector.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\MemoryLeakWarningPlugin.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\SimpleMutex.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\SimpleString.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TeamCityTestOutput.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestFailure.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestFilter.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestHarness_c.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestMemoryAllocator.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestOutput.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestPlugin.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestRegistry.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestResult.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestTestingFixture.cpp" />
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\Utest.cpp" />
+    <ClCompile Include="..\LinuxUnitTest\I2C.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Test_Application.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

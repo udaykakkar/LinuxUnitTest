@@ -1,0 +1,52 @@
+﻿  VisualGDB: Run "rm -rf "/tmp/VisualGDB/c/Users/Lenovo/Documents/Visual Studio 2015/Projects/LinuxUnitTest/LinuxUnitTest/VisualGDB/Debug"" in directory "" on root@192.168.0.219 (SSH)
+  VisualGDB: Sending 27 updated source files to build machine...
+  VisualGDB: Sending 84 updated source files to build machine...
+  VisualGDB: Run "make -f "VisualGDB/Debug/LinuxUnitTest.msbuild-mak"" in directory "/tmp/VisualGDB/c/Users/Lenovo/Documents/Visual Studio 2015/Projects/LinuxUnitTest/LinuxUnitTest" on root@192.168.0.219 (SSH)
+  UtestPlatform.cpp
+  SysprogsTestHooks.cpp
+  CodeMemoryReportFormatter.cpp
+  IEEE754ExceptionsPlugin.cpp
+  MemoryReportAllocator.cpp
+  MemoryReporterPlugin.cpp
+  MemoryReportFormatter.cpp
+  MockActualCall.cpp
+  MockExpectedCall.cpp
+  MockExpectedCallsList.cpp
+  MockFailure.cpp
+  MockNamedValue.cpp
+  MockSupport.cpp
+  MockSupportPlugin.cpp
+  MockSupport_c.cpp
+  OrderedTest.cpp
+  CommandLineArguments.cpp
+  CommandLineTestRunner.cpp
+  JUnitTestOutput.cpp
+  MemoryLeakDetector.cpp
+  MemoryLeakWarningPlugin.cpp
+  SimpleMutex.cpp
+  SimpleString.cpp
+  TeamCityTestOutput.cpp
+  TestFailure.cpp
+  TestFilter.cpp
+  TestHarness_c.cpp
+  TestMemoryAllocator.cpp
+  TestOutput.cpp
+  TestPlugin.cpp
+  TestRegistry.cpp
+  TestResult.cpp
+  TestTestingFixture.cpp
+  Utest.cpp
+  i2cCommTest.cpp
+  i2c_comm.cpp
+  I2C_Sensor.cpp
+I2C_Sensor.cpp(1,9): warning :  #pragma once in main file [enabled by default]
+  IO.cpp
+  main.cpp
+  LinuxUnitTestTests.cpp
+  Printer.cpp
+  Printer_Test.cpp
+  Sensor_test.cpp
+  temperature.cpp
+temperature.cpp(1,9): warning :  #pragma once in main file [enabled by default]
+  TemperatureSensorTest.cpp
+  Linking ../VisualGDB/Debug/LinuxUnitTest...

@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{cef5b2b5-1ce0-406e-968d-cd7e208568bc}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{d1674cb6-edad-4373-a7b9-c70332740fdf}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{4a560ed0-206f-47c6-97cd-309be9ecbc19}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{130629ba-a84c-4c0a-842f-d261d672d626}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="Source files\Test Framework">
+      <UniqueIdentifier>{3e3dc454-aed0-42e1-b4ac-f7ed84ba8380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Test Framework">
+      <UniqueIdentifier>{02ed5d08-20d6-414d-881b-545ad0b19dd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Linux_simulated_project.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\CommandLineArguments.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\CommandLineTestRunner.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\JUnitTestOutput.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\MemoryLeakDetector.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\MemoryLeakWarningPlugin.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\SimpleMutex.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\SimpleString.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TeamCityTestOutput.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestFailure.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestFilter.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestHarness_c.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestMemoryAllocator.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestOutput.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestPlugin.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestRegistry.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestResult.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\TestTestingFixture.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTest\Utest.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\Platforms\SysprogsTestHooks.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\CodeMemoryReportFormatter.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\IEEE754ExceptionsPlugin.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MemoryReportAllocator.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MemoryReporterPlugin.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MemoryReportFormatter.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockActualCall.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockExpectedCall.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockExpectedCallsList.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockFailure.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockNamedValue.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockSupport.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockSupportPlugin.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\MockSupport_c.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\src\CppUTestExt\OrderedTest.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\Platforms\Linux\UtestPlatform.cpp">
+      <Filter>Source files\Test Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Linux_simulated_projectTests.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="I2C.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="I2C_Sensor.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MockI2C.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="I2C_Test.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Linux_simulated_project-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Linux_simulated_project-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CommandLineArguments.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CommandLineTestRunner.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CppUTestConfig.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\CppUTestGeneratedConfig.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\JUnitTestOutput.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakDetector.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakDetectorMallocMacros.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakDetectorNewMacros.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\MemoryLeakWarningPlugin.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\PlatformSpecificFunctions.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\PlatformSpecificFunctions_c.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\SimpleMutex.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\SimpleString.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\StandardCLibrary.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TeamCityTestOutput.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestFailure.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestFilter.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestHarness.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestHarness_c.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestMemoryAllocator.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestOutput.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestPlugin.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestRegistry.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestResult.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\TestTestingFixture.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\Utest.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTest\UtestMacros.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\Platforms\SysprogsTestHooks.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\CodeMemoryReportFormatter.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\GMock.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\GTest.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\GTestConvertor.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\IEEE754ExceptionsPlugin.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MemoryReportAllocator.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MemoryReporterPlugin.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MemoryReportFormatter.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockActualCall.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockCheckedActualCall.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockCheckedExpectedCall.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockExpectedCall.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockExpectedCallsList.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockFailure.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockNamedValue.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockSupport.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockSupportPlugin.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\MockSupport_c.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\AppData\Local\VisualGDB\TestFrameworks\com.sysprogs.unittest.CppUTest\include\CppUTestExt\OrderedTest.h">
+      <Filter>Header files\Test Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="I2C.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="I2C_Sensor.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
